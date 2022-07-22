@@ -1,0 +1,14 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+}
+
+.card {
+    margin: 2rem;
+}

@@ -1,0 +1,7 @@
+    <div class="tabla">
+            <ol>
+            <li *ngFor="let alumno of listAlumnos" [ngClass]="alumno.aprobado? 'aprobado':'reprobado'  " > {{ alumno.nombre }} {{alumno.apellido}} <strong> {{alumno.aprobado?"Aprobado":"Reprobado" | uppercase}} </strong></li>
+            </ol>
+    </div>
+    <router-outlet></router-outlet>
+ 

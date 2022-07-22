@@ -1,0 +1,24 @@
+
+
+.aprobado {
+    color:rgb(0, 0, 0)
+}
+
+.reprobado {
+    color: rgb(255, 0, 0)
+}
+
+li {
+    width: 300px;
+}
+
+ol {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+}
+
+.tabla {
+    width: 600px;
+    margin: 60px auto;
+}
